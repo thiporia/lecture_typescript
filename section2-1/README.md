@@ -1,3 +1,5 @@
+공식 타입스크립트 문서: https://www.typescriptlang.org/docs/handbook/basic-types.html
+
 ## Core Types
 
 - number: 11, 11.23, -550 -> 정수형과 플롯형을 포함

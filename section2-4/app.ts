@@ -11,7 +11,7 @@ if (typeof userInput === 'string') {
 }
 
 function generateError(message: string, code: number): never {
-  // never의 경우는 함수가 값을 절대 반환할 일이 없다.
+  // never의 경우는 함수가 값을 절대 반환할 일이 없다. void 와는 다름
   throw { message: message, errorCode: code }
 }
 
